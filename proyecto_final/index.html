@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htmL>
+  <head>
+    <meta charset="utf-8">
+    <title>Atwood's Machine Simulator</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="css_style.css">
+  </head>
+  <body>
+
+  	<div class="grid-container">
+  		<div class="grid-item1">
+  			<h3>Configuración</h3>
+  			<label>Masa 1:</label><input type="text" id="masa1" name="masa1" value="5">
+  			<label>Masa 2:</label><input type="text" id="masa2" name="masa2" value="5">
+  			<label>Gravedad:</label><input type="text" id="gravedad" name="gravedad" value="9.8">
+
+  			<input type="button" onclick="reload()" name="reiniciar" value="Reiniciar">
+  			<input type="button" id="calcular" onclick="calcular()" name="calcular" value="Calcular">
+  		</div>
+  		<div class="grid-item2">
+  			<div class="circulo" id="circulo"></div>
+  			<div class="b1" id="b1"><h3>Masa 1</h3></div>
+  			<div class="b2" id="b2"><h3>Masa 2</h3></div>
+  			<div class="rope1" id="rope1"></div>
+  			<div class="rope2" id="rope2"></div>
+  			<audio id="audio" src="wheel-sound.mp3"></audio>
+  		</div>
+
+  		<div class="grid-item3" id="result">
+  			<h3>Resultado</h3>
+  			<p id="demo1"></p>
+  			<p id="demo2"></p>
+  			<p id="demo3"></p>
+  			<p id="leyenda">
+  				Leyenda: <br>
+  				p: Peso de los objetos <br>
+  				m: Masa de los objetos <br>
+  				a: Aceleracion <br>
+  				T: Tension de la cuerda en ambos extremos
+  			</p>
+  			
+  		</div>
+
+  	</div>
+  
+
+  </body>
+  <script src="script.js"></script>
+</html>
