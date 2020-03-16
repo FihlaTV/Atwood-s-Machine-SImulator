@@ -46,12 +46,12 @@ function calcular(){
 
  	function result(m1, m2, p1, p2, g, a, t, tension){
  		document.getElementById("demo1").innerHTML = 
-		"Peso de ambos objetos: m * g <br>" +
+		"Weight of Objects: m * g <br>" +
 		"p1 = " + m1 + " * " + g + " = " + p1 + "<br>" +
 		"p2 = " + m2 + " * " + g + " = " + p2 + "<br><br>"
 		;
 		document.getElementById("demo2").innerHTML = 
-		"Aceleracion : <br" +
+		"Acceleration : <br" +
 		"<p>p1 - p2 = (m1 + m2) * a</p>" 
 		+ p1 + " - " + p2 + " = (" + m1 + " + " + m2 + ") * " + "a <br>"
 		+ igu1 + " = " + igu2 + " * a <br>"
@@ -59,7 +59,7 @@ function calcular(){
 		+ a + " = a <br><br>";
 
 		document.getElementById("demo3").innerHTML = 
-		"Tension de la cuerda: T - p2 = m2 * a <br>" +
+		"Tension of the rope: T - p2 = m2 * a <br>" +
 		"T - " + p2 + " = " + m2 + " * " + a + "<br>" +
 		"T = " + p2 + " + " + t + "<br>" + 
 		"T = " + tension;
