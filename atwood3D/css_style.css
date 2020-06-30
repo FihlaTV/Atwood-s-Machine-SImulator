@@ -4,7 +4,8 @@
   font-family: 'Playfair Display', serif;
 }
 
-.grid-item1{ grid-area: menu;}
+.grid-item1{ grid-area: menu;
+ grid-column: 1 /2}
 .grid-item2{ grid-area: main;}
 .grid-item3{ grid-area: footer;}
 
@@ -15,8 +16,8 @@
 	grid-gap: 10px;
 	grid-template-areas: 'menu main main main main main main'
 						 'footer main main main main main main';
-	background-color: #ffe6cc;
-	padding: 10px;
+	background-color: #33CFFF;
+	padding: 15px;
 }
 
 
@@ -58,7 +59,7 @@ input[type=text]:hover {
 }
 
 input[type=button]{ 
-  background-color:  #ffbf80;
+  background-color:  #33CFFF;
   border: 1px solid #555;
   border: none;
   color: black;
@@ -72,7 +73,7 @@ input[type=button]{
 
 input[type=button]:hover{
 	transition:0.8s;
-	background-color: #ffa64d;
+	background-color: #0C5088;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -97,7 +98,7 @@ input[type=button]:hover{
 	padding:12px;
 	top:69%;
 	left:475px;
-	background-color:  #ffbf80;
+	background-color:  #33CFFF;
 	border-radius: 20px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
