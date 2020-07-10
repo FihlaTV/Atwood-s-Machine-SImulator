@@ -39,10 +39,11 @@
 
 .grid-item1{
 	height: 325px;
+	width: 300px;
 }
 
 input[type=text]{
-	font-size: 12px;
+	font-size: 15px;
 	width: 100%;
 	padding:9px 9px;
 	margin: 3.5px 0;
@@ -59,7 +60,7 @@ input[type=text]:hover {
 }
 
 input[type=button]{
-	font-size: 10;
+	font-size: 12px;
   background-color:  #33CFFF;
   border: 1px solid #555;
   border: none;
@@ -92,13 +93,13 @@ input[type=button]:hover{
 }
 
 #leyenda {
-	width:150px;
+	width:100px;
 	height: 150px;
-	font-size: 14px;
+	font-size: 12px;
 	position:absolute;
 	padding:12px;
-	top:69%;
-	left:475px;
+	top:89%;
+	left:300px;
 	background-color:  #33CFFF;
 	border-radius: 20px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -110,13 +111,14 @@ input[type=button]:hover{
 	height: 325px;
 }
 .circulo{
-	width:160px;
+	width:180px;
 	height:160px;
+	
 	margin:auto;
 	border-radius: 50%;
   	background-image: url("wheel.png"); 
   	background-repeat: no-repeat; 
-  	background-size: cover;
+  	background-size:cover;
   	transform: rotate(0deg);
 }
 
@@ -175,6 +177,7 @@ input[type=button]:hover{
 	border-radius:50px;
 
 }
+
 
 
 
